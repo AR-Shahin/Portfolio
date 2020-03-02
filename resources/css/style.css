@@ -1,0 +1,284 @@
+/*=====================
+
+Project name : 
+Designer     :
+email        :
+========================*/
+/* Documentation
+
+>>>Section<<<
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+=========================*/
+
+
+
+/* basic setup */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.wrapping{
+    overflow: hidden;
+}
+body{
+    background: #2c3e50;
+}
+section{
+    padding: 50px 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #fff;
+    letter-spacing: .5px;
+}
+/******hero-section******/
+.hero-section{
+    padding: 100px 0;
+    height: 100vh;
+    background:  #34495e;
+    background-image: url(../images/banerr.png);
+    background-size: cover;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card{
+    background:#34495e;
+}
+.card-body{
+    padding: 15px ;
+}
+.btn{
+    background: #56365B;
+    color: #fff;
+}
+.hero-section .hero-content{
+    padding-top: 120px;
+}
+.hero-section h1{
+    font-size: 60px;
+}
+#about{
+    
+}
+.hero-btn-box{
+    margin-top: 25px;
+}
+ .sec-title{
+    position: relative;
+}
+ .sec-title h2{
+    padding: 10px 0;
+}
+.sec-title span.first{
+    width: 30%;
+    display: inline-block;
+    background: #2980b9;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+ .sec-title span.second{
+    width: 30%;
+    display: inline-block;
+    background: black;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*services-section*/
+
+.services-section{
+    
+}
+.services-section .service-wrapper{
+    text-align: center;
+    transition: .6s;
+    border: 1px solid #fff;
+    
+}
+.services-section .service-wrapper:hover{
+    box-shadow: 2px 2px 10px #111;
+    margin-top: -15px;
+    border: 0;
+}
+.services-section  .services{
+    margin-top: 40px;
+}
+.services-section .service-wrapper .icon-box{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+   border-radius: 50%;
+    border: 2px solid #2980b9;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-section .service-wrapper h4{
+    font-size: 21px;
+    margin: 10px 0;
+}
+.services-section .service-wrapper p{
+    text-align:center;
+}
+.services-section .service-wrapper .fas{
+    font-size: 24px;
+    color: #fff;
+}
+.programming-code{
+    margin-top: 30px;
+}
+
+/*portfolio section*/
+.portfolio button{
+    background:#9C27B0;
+    border: 0;
+    outline: none;
+    padding: 8px 25px;
+    color: #fff;
+    margin: 0 5px;
+}
+/*news-latter*/
+
+.news-latter{
+    background: #2980b9;
+}
+.news-latter h3{
+    font-size: 36px;
+}
+.news-latter  .nws-btn{
+    background: #8e44ad;
+    padding: 10px 30px;
+    transition: .6s;
+    border: 1px solid none;
+}
+.news-latter  .nws-btn:hover{
+    
+    border: 1px solid #8e44ad;
+    background: transparent;
+    color: #fff;
+}
+.btn-link:hover{
+    color: #fff;
+}
+/*my-gallery*/
+.my-gallery h2{
+    margin-bottom: 40px;
+}
+.my-gallery .col-md-3{
+    overflow: hidden;
+}
+.my-gallery img{
+    transition: .6s;
+}
+.my-gallery img:hover{
+    transform: scale(1.2);
+}
+
+
+/*contact-section*/
+
+.contact-section .form-control{
+    background: transparent;
+    padding: 15px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #2980b9;
+    color: #fff;
+}
+.contact-section ::placeholder{
+    color: #8e44ad;
+    letter-spacing: .5px;
+}
+.contact-section textarea{
+    background: transparent;
+    padding: 15px;
+     border-radius: 5px;
+    border: 1px solid #2980b9;
+    color: #fff;
+}
+.contact-section .form-btn{
+    padding: 15px 45px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1.5px solid #8e44ad;
+    text-decoration: none;
+    transition: .6s;
+}
+.contact-section .form-btn:hover{
+    background: #8e44ad;
+    border: 1px solid transparent;
+}
+.contact-section .contact-form{
+    margin-top: 50px;
+}
+
+/*footer*/
+footer{
+    padding: 40px 0;
+    background: #2d3436;
+    color: #fff;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+footer ul li{
+    height: 50px;
+    width: 50px;
+    background: #bdc3c7;
+    transform: rotate(45deg);
+    transition: .6s;
+}
+footer ul li:hover{
+        box-shadow: 2px 5px 16px #111;
+}
+footer ul li:nth-child(1)
+{
+    background: #3b5999;
+}
+footer ul li:nth-child(2)
+{
+    background: #55acee;
+}
+footer ul li:nth-child(3)
+{
+    background: #0077B5;
+}
+footer ul li:nth-child(4)
+{
+    background:#09b83e;
+}
+footer ul li:nth-child(5)
+{
+    background: #b92b27;
+}
+footer ul li a i{
+     transform: rotate(-45deg);
+    padding: 15px;
+    color: #fff;
+    font-size: 22px;
+}
