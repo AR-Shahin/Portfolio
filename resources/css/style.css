@@ -291,3 +291,18 @@ footer ul li a i{
     color: #fff;
     font-size: 22px;
 }
+.scroll-top{
+    height: 40px;
+    width: 40px;
+    background: red;
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-top i{
+    color: #fff;
+    transform: scale(1.2);
+}
