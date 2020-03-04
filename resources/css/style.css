@@ -45,14 +45,13 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /******hero-section******/
 .hero-section{
-    padding: 100px 0;
-    height: 100vh;
     background:  #34495e;
     background-image: url(../images/banerr.png);
     background-size: cover;
     background-position: 100% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
 }
 .card{
     background:#34495e;
@@ -65,10 +64,18 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;
 }
 .hero-section .hero-content{
-    padding-top: 120px;
+    padding-top: 200px;
+}
+.hero-section h5{
+    font-size: 26px;
+    margin: 0;
 }
 .hero-section h1{
     font-size: 60px;
+    margin: 0;
+}
+.hero-section h4{
+    margin: 0;
 }
 #about{
     
@@ -104,7 +111,9 @@ h1,h2,h3,h4,h5,h6,p{
     right: 0;
     margin: 0 auto;
 }
-
+.snd-sec{
+    padding-top: 40px;
+}
 /*services-section*/
 
 .services-section{
